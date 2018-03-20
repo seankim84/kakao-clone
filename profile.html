@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-  <title>Friends</title>
+  <title>Profile</title>
 </head>
 <body>
   <header>
@@ -25,14 +25,41 @@
     </div>
     <div class="header__bottom">
       <div class="header__coulumn">
-        <i class="fas fa-times"></i>
+        <a href="index.html">
+          <i class="fas fa-times fa-lg"></i>
+        </a>
       </div>
       <div class="header__coulumn">
         <span class="header__text">Friends <span class="header__number">1</span></span>
       </div>
-      <div class="header__coulumn"><i class="fas fa-cogs"></i></div>
+      <div class="header__coulumn"><i class="fas fa-cog"></i></div>
     </div>
     </div>
   </header>
+  <main class="profile">
+    <header class="profile__header">
+      <img src="images/rebekah.jpeg" alt="Hye-Yeon">
+      <h3 class="profile__header-title">Rebekah</h3>
+    </header>
+    <input type="text" placeholder="sean.kim84@gmail.com">
+    <div class="profile__actions">
+      <div class="profile__action">
+        <span class="profile__action-circle">
+          <i class="fas fa-comment fa-2x"></i>
+        </span>
+        <span class="profile__action-title">
+          My Chatroom
+        </span>
+      </div>
+      <div class="profile__action">
+        <span class="profile__action-circle">
+          <i class="fas fa-pencil-alt fa-2x"></i>
+        </span>
+        <span class="profile__action-title">
+          Edit Profile
+        </span>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
